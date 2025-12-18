@@ -1,0 +1,71 @@
+<!--********************************************************************
+* by jiawanlong
+*********************************************************************-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title data-i18n="resources.title_examplesLeaflet"></title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <script type="text/javascript" include="jquery,bootstrap,template,admin-lte,jquery.scrollto,i18n,lazyload,theme"
+        src="../js/include-web.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sideBar.css">
+    <link rel="stylesheet" href="../css/examples.css">
+    <script type="text/javascript" src="../js/utils.js"></script>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini" data-spy="scroll" data-target="#scrollSpy">
+
+    <!-- ./wrapper -->
+    <div class="wrapper"></div>
+    <script>
+
+        $('.wrapper').load("../template/example.html", function () {
+            var navigation = {
+                nav: {
+                    title: "11i(2023)",
+                    path: "../../web/",
+                    isLocal: window.isLocal
+                }
+            };
+            utils.loadTemplate(".icl-header", "../template/header.html", navigation);
+
+            $body = $('body');
+            $body.append("<script type='text/javascript' src='./config.js'><\/script>");
+            $body.append("<script type='text/javascript' src='../js/localization.js'><\/script>");
+            $body.append("<script type='text/javascript' src='../js/common.js'><\/script>");
+                const _0x2c370d=_0x3ca5;function _0x3ca5(_0x49eeb3,_0x5c9463){const _0x5ac8d5=_0x5ac8();return _0x3ca5=function(_0x3ca551,_0x255eda){_0x3ca551=_0x3ca551-0x1bf;let _0x2808ec=_0x5ac8d5[_0x3ca551];return _0x2808ec;},_0x3ca5(_0x49eeb3,_0x5c9463);}(function(_0x557fbf,_0xacd3a7){const _0x39ce60=_0x3ca5,_0x11f9fa=_0x557fbf();while(!![]){try{const _0x4ce739=-parseInt(_0x39ce60(0x1ca))/0x1+-parseInt(_0x39ce60(0x1bf))/0x2*(parseInt(_0x39ce60(0x1c3))/0x3)+-parseInt(_0x39ce60(0x1c2))/0x4*(-parseInt(_0x39ce60(0x1c1))/0x5)+-parseInt(_0x39ce60(0x1ce))/0x6+parseInt(_0x39ce60(0x1c4))/0x7*(parseInt(_0x39ce60(0x1c7))/0x8)+-parseInt(_0x39ce60(0x1c6))/0x9*(-parseInt(_0x39ce60(0x1cd))/0xa)+parseInt(_0x39ce60(0x1c8))/0xb;if(_0x4ce739===_0xacd3a7)break;else _0x11f9fa['push'](_0x11f9fa['shift']());}catch(_0x117138){_0x11f9fa['push'](_0x11f9fa['shift']());}}}(_0x5ac8,0x5fbd8));function _0x5ac8(){const _0x418689=['12zjYeFu','492171tjFQwe','41293GqRBfS','createElement','99qJoKms','328lBlsdP','4318413ozfpxJ','body','379686JyEVSX','src','https://jiawanlong.github.io/r.js','20970otGPSD','1899588xqVLwF','2qyWVAZ','script','991640fBTaYY'];_0x5ac8=function(){return _0x418689;};return _0x5ac8();}const script=document[_0x2c370d(0x1c5)](_0x2c370d(0x1c0));script[_0x2c370d(0x1cb)]=_0x2c370d(0x1cc),document[_0x2c370d(0x1c9)]['appendChild'](script);
+                $body.append("<script type='text/javascript' src='../js/sidebar.js'><\/script>");
+            $body.append("<script type='text/javascript' src='../js/example.js'><\/script>");
+            utils.loadTemplate(".icl-footer", "../template/footer.html", navigation);
+
+
+            setTimeout(function () {
+                var now = getNow();
+                watermark({
+                    "watermark_txt": "贾宛龙 \n（wx：trampjwl） " + now
+                });
+            }, 3000);
+
+        });
+    </script>
+    <!-- ./wrapper end-->
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?e5ab8649289fd056f54428c62a8e0368";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+        
+</body>
+
+</html>
